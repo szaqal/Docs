@@ -9,7 +9,6 @@
 pip install --upgrade pip
 pip install ansible=2.6.2
 ``` 
-* 
 
 ### Running prerequisites playbook
 
