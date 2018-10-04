@@ -3,12 +3,18 @@
 
 ### Installing dependencies
 
+```
+yum update -y && yum install -y install epel-release && yum install -y vim net-tools python pip
+```
+
 * Ansible default installation 2.4 is too old
 
 ```
 pip install --upgrade pip
 pip install ansible=2.6.2
 ``` 
+
+* Set SELinux to **permissive** mode
 
 ### Running prerequisites playbook
 
