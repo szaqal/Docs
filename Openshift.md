@@ -15,3 +15,7 @@ pip install ansible=2.6.2
 Checkout tag ```git checkout tags/v3.10.0 -b v3.10.0```
 
 Run prerequisites playbook ```ansible-playbook -i inventory/hosts.localhost  playbooks/prerequisites.yml ```
+
+Run deployment playbook ```[root@localhost openshift-ansible]# ansible-playbook -i inventory/hosts.localhost  playbooks/deploy_cluster.yml```
+
+Once ready navigate to ```https://192.168.2.200:8443```
