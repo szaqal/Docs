@@ -5,3 +5,5 @@
 * [KVM](KVM.md)
 
 * [Ansible](Ansible.md)
+
+* [Openshift](Openshift.md)
