@@ -27,6 +27,18 @@ epoch      timestamp cluster               status node.total node.data shards pr
 curl -X GET "localhost:9200/_ingest/pipeline"
 ```
 
+### List indices
+
+```
+curl -X GET "localhost:9200/_cat/indices"
+```
+
+### List shards
+
+```
+curl -X GET "localhost:9200/_cat/shards"
+```
+
 ### Snapshotting
 
 * Turn on snapshot repository (S3)

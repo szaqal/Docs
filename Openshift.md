@@ -1,10 +1,10 @@
-#Openshift 
+# Openshift 
 
 
 ### Installing dependencies
 
 ```
-yum update -y && yum install -y install epel-release && yum install -y vim net-tools python pip
+yum update -y && yum install -y install epel-release && yum install -y vim net-tools git  python pip
 ```
 
 * Ansible default installation 2.4 is too old
