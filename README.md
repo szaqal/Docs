@@ -10,4 +10,6 @@
 
 * [ElasticSearch](Elastic.md)
 
-*  [Hadoop](Hadoop.md)
+* [Hadoop](Hadoop.md)
+
+* [AwsCli](AwsCli.md)
