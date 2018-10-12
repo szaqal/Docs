@@ -9,3 +9,5 @@
 * [Openshift](Openshift.md)
 
 * [ElasticSearch](Elastic.md)
+
+*  [Hadoop](Hadoop.md)
