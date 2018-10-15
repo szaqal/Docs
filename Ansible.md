@@ -10,3 +10,9 @@ localhost | SUCCESS => {
 }
 
 ```
+
+### Ask for password instead of ssh auth + sudo w/o parssword
+
+```
+ ansible-playbook playbook.yml --sudo  --ask-pass --ask-sudo-pass
+```
