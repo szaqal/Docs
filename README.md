@@ -12,4 +12,6 @@
 
 * [Hadoop](Hadoop.md)
 
+* [Hive](Hive.md)
+
 * [AwsCli](AwsCli.md)
