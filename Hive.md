@@ -9,3 +9,12 @@ hive> CREATE EXTERNAL TABLE IF NOT EXISTS Crimes(ID INT, Case_Number STRING, daa
 
 hive> LOAD DATA INPATH '/datasets/Crimes.csv' INTO TABLE Crimes;
 ```
+
+Relevant settings 
+
+```
+set mapreduce.input.fileinputformat.split.maxsize=10000000
+set hive.merge.mapfiles=true;
+set hive.map.aggr.hash.percentmemory=0.5
+set hive.smbjoin.cache.rows=10000
+```
