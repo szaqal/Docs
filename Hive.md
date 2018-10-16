@@ -13,8 +13,8 @@ hive> LOAD DATA INPATH '/datasets/Crimes.csv' INTO TABLE Crimes;
 Relevant settings 
 
 ```
-set mapreduce.input.fileinputformat.split.maxsize=10000000
+set mapreduce.input.fileinputformat.split.maxsize=14000000;
 set hive.merge.mapfiles=true;
-set hive.map.aggr.hash.percentmemory=0.5
-set hive.smbjoin.cache.rows=10000
+set hive.map.aggr.hash.percentmemory=0.5;
+set hive.smbjoin.cache.rows=10000;
 ```
