@@ -25,3 +25,7 @@ Run prerequisites playbook ```ansible-playbook -i inventory/hosts.localhost  pla
 Run deployment playbook ```[root@localhost openshift-ansible]# ansible-playbook -i inventory/hosts.localhost  playbooks/deploy_cluster.yml```
 
 Once ready navigate to ```https://192.168.2.200:8443```
+
+```
+https://docs.openshift.com/container-platform/3.4/install_config/install/advanced_install.html#uninstalling-advanced
+```
