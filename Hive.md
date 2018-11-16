@@ -18,3 +18,7 @@ set hive.merge.mapfiles=true;
 set hive.map.aggr.hash.percentmemory=0.5;
 set hive.smbjoin.cache.rows=10000;
 ```
+
+## Benchmark
+
+[Hive testbench](https://github.com/hortonworks/hive-testbench)
