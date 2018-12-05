@@ -1,5 +1,7 @@
 # README
 
+* [Cheetsheet](Cheetsheet.md)
+
 * [Mesos](Mesos.md)
 
 * [KVM](KVM.md)
