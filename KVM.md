@@ -21,3 +21,10 @@ virsh # vol-delete ion-os-master-01 --pool libvirt
 Vol ion-os-master-01 deleted
 ```
 
+## Add VCPUs
+
+```
+virsh # edit kubernetes-01  Put #<vcpu placement='static'>8</vcpu>
+virsh # setvcpus --count 2 kubernetes-01
+```
+
