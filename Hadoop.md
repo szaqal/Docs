@@ -25,3 +25,8 @@ hdfs dfs -put Crimes.csv /dataset/
 ```
  hdfs dfs -rmr /tmp/tpcds-generate
 ```
+### List jobs
+
+```
+hadoop job -list
+```
