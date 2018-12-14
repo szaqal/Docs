@@ -20,3 +20,8 @@ hdfs dfs -put Crimes.csv /dataset/
  hdfs dfs -D dfs.replication=8 -put * /datasets/
 ```
 
+### Remove Recursive Dir
+
+```
+ hdfs dfs -rmr /tmp/tpcds-generate
+```
