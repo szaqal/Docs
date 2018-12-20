@@ -60,3 +60,9 @@ Copy file over rsynch that allows resume
 ```
  rsync -P -rsh=ssh root@192.168.2.102:/mnt/file.gz ./file.sql.gz
 ```
+### Generate file of arbitraty size
+
+```
+dd if=/dev/zero of=1g.img bs=1 count=0 seek=1G (1G)
+dd if=/dev/zero of=test.img bs=1024 count=0 seek=$[1024*10] (10MB)
+```
