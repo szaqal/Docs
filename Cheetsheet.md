@@ -52,3 +52,11 @@ root@ubuntu-mesos-master:/etc/zookeeper/conf#  apt-cache madison docker-ce
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 ```
+
+### Rsync
+
+Copy file over rsynch that allows resume
+
+```
+ rsync -P -rsh=ssh root@192.168.2.102:/mnt/file.gz ./file.sql.gz
+```
