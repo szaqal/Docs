@@ -66,3 +66,11 @@ Copy file over rsynch that allows resume
 dd if=/dev/zero of=1g.img bs=1 count=0 seek=1G (1G)
 dd if=/dev/zero of=test.img bs=1024 count=0 seek=$[1024*10] (10MB)
 ```
+
+### Monitoring tools
+
+dnstop and iftop
+
+```
+bash-4.4# apk add iftop dnstop
+```
