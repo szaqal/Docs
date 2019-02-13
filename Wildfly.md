@@ -20,3 +20,9 @@
 }
 [standalone@localhost:9990 /] reload
 ```
+
+Running scripts
+
+```
+./jboss-cli.sh -c --file=./disable-modules.cli
+```
