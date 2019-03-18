@@ -21,6 +21,19 @@
 [standalone@localhost:9990 /] reload
 ```
 
+```
+[standalone@localhost:9990 /] /subsystem=ejb3/strict-max-bean-instance-pool=slsb-strict-max-pool/:read-resource
+{
+    "outcome" => "success",
+    "result" => {
+        "derive-size" => "from-worker-pools",
+        "max-pool-size" => 20,
+        "timeout" => 5L,
+        "timeout-unit" => "MINUTES"
+    }
+}
+```
+
 Running scripts
 
 ```
