@@ -677,3 +677,5 @@ OpenJDK 64-Bit Server VM (build 11.0.2+9-Debian-3bpo91, mixed mode, sharing)
 
 
 * The goal is specified by the command-line option -XX:GCTimeRatio=nnn. The ratio of garbage collection time to application time is 1/ (1+nnn). For example, -XX:GCTimeRatio=19 sets a goal of 1/20th or 5% of the total time for garbage collection.
+
+* ``` -XX:MaxHeapFreeRatio```  ``` -XX:MinHeapFreeRatio``` ```-XX:-ShrinkHeapInSteps```
