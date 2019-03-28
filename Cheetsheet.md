@@ -75,3 +75,9 @@ dnstop and iftop
 bash-4.4# apk add iftop dnstop
 ```
 
+### TCPFLOW
+
+```
+tcpflow -c 
+tcpflow -i eth1  port 8094 -C
+```
