@@ -81,3 +81,11 @@ bash-4.4# apk add iftop dnstop
 tcpflow -c 
 tcpflow -i eth1  port 8094 -C
 ```
+
+### Terminalizer 
+
+Optimize GIF size from terminalizer
+
+```
+╰─$ convert demo.gif   -fuzz 20% -layers Optimize result.gif
+```
