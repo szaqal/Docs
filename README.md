@@ -8,6 +8,8 @@
 
 * [JVM](JVM.md)
 
+* [OQL](OQL.md)
+
 * [Ansible](Ansible.md)
 
 * [Openshift](Openshift.md)
