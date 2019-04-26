@@ -6,6 +6,12 @@
 rm(df)
 ```
 
+### Clean workspace
+
+```
+rm(list=ls())
+```
+
 ### Obtain help
 
 ```
