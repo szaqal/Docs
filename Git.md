@@ -36,3 +36,14 @@ git log <file>
 git log --stat
 git log -p
 ```
+
+## Go back + fix + add to master
+
+Same can be dome with branchs + merge
+
+```
+git checkout commit_id
+git commit -am "xxx"
+git checkout master
+git cherry-pick new_commit_id
+```
