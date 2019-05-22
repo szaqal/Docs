@@ -47,3 +47,15 @@ git commit -am "xxx"
 git checkout master
 git cherry-pick new_commit_id
 ```
+
+## Revert most recent commit
+
+```
+git revert HEAD
+```
+
+## Cleanup (interactive)
+
+```
+git clean -i
+```
