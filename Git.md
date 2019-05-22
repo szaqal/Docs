@@ -39,7 +39,7 @@ git log -p
 
 ## Go back + fix + add to master
 
-Same can be dome with branchs + merge
+Same can be dome with branchs + merge (new_commit_id can be taken from reflog)
 
 ```
 git checkout commit_id
