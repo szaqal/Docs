@@ -59,3 +59,8 @@ git revert HEAD
 ```
 git clean -i
 ```
+
+## Remove branches matching something
+```
+git branch | grep  "versionup-" | xargs git branch -d
+```
