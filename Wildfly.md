@@ -67,3 +67,11 @@ Running scripts
 ./jboss-cli.sh -c --file=./disable-modules.cli
 ```
 
+
+```
+ /subsystem=undertow/server=default-server/http-listener=default:read-resource(include-runtime=true)
+```
+
+```
+/subsystem=logging/root-logger=ROOT:change-root-log-level(level=WARN)
+```
