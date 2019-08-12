@@ -685,3 +685,7 @@ Print configured
 ```
 root@cff866cfe3ae:/tmp# jps -lvm
 ```
+
+```
+jingo processId
+```
