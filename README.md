@@ -35,3 +35,5 @@
 * [Vault](Vault.md)
 
 * [Sdkman](sdkman.md)
+
+* [Gcloud](gcloud.md)
