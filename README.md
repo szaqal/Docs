@@ -37,3 +37,5 @@
 * [Sdkman](sdkman.md)
 
 * [Gcloud](gcloud.md)
+
+* [Mysql](Mysql.md)
