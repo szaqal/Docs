@@ -16,3 +16,9 @@ Default output format [None]: json
 ```
 aws s3 ls s3://some-logs/api/
 ```
+
+### Recursive copy
+
+```
+aws s3 mv  s3://dir/ /local/path/s3/ --recursive
+```
