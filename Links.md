@@ -20,6 +20,11 @@
 
 * [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter)
 
+* [CGroups](https://www.kernel.org/doc/Documentation/cgroup-v1/cgroups.txt)
+
+* [Ngrok](https://ngrok.com/)
+
+* [Demystifying Kubernetes as a Service – How Alibaba Cloud Manages](https://www.cncf.io/blog/2019/12/12/demystifying-kubernetes-as-a-service-how-does-alibaba-cloud-manage-10000s-of-kubernetes-clusters/)
 ### Makefile
 
 * [Makefile by example](https://makefiletutorial.com/)
