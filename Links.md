@@ -22,7 +22,11 @@
 
 * [CGroups](https://www.kernel.org/doc/Documentation/cgroup-v1/cgroups.txt)
 
+* [59 Hilarious but True Programming Quotes for Software Developers](http://theprofessionalspoint.blogspot.com/2013/09/59-hilarious-but-true-programming.html)
+
 * [Ngrok](https://ngrok.com/)
+
+* [Lambda Behave](http://richardwarburton.github.io/lambda-behave/)
 
 * [Demystifying Kubernetes as a Service – How Alibaba Cloud Manages](https://www.cncf.io/blog/2019/12/12/demystifying-kubernetes-as-a-service-how-does-alibaba-cloud-manage-10000s-of-kubernetes-clusters/)
 ### Makefile
