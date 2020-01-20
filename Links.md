@@ -26,6 +26,8 @@
 
 * [SparkR](https://www.slideshare.net/wqchen/hadoopcon-2016)
 
+* [Hive on Spark](https://cwiki.apache.org/confluence/display/Hive/Hive+on+Spark%3A+Getting+Started)
+
 ### Python
 
 * [Scikit](https://scikit-image.org/docs/dev/auto_examples/index.html)
