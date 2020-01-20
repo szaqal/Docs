@@ -2,6 +2,10 @@
 
 * [Become a Programmer, Motherfucker](http://programming-motherfucker.com/)
 
+### Makefile
+
+* [Makefile by example](https://makefiletutorial.com/)
+
 ### JVM 
 
 * [Vertx](https://vertx.io/)
