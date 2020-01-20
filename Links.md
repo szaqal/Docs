@@ -67,6 +67,12 @@
 
 * [Scikit](https://scikit-image.org/docs/dev/auto_examples/index.html)
 
+### R
+
+* [Feature Selection with the Caret R Package](https://machinelearningmastery.com/feature-selection-with-the-caret-r-package/)
+
+* [R-ML](https://machinelearningmastery.com/category/r-machine-learning/)
+
 ### Learning
 
 * [Khan linear algebra](https://pl.khanacademy.org/math/linear-algebra)
