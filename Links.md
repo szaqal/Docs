@@ -2,6 +2,8 @@
 
 * [Become a Programmer, Motherfucker](http://programming-motherfucker.com/)
 
+* [Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html)
+
 ### Makefile
 
 * [Makefile by example](https://makefiletutorial.com/)
