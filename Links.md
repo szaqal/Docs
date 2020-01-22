@@ -1,5 +1,6 @@
 # Links 
 
+
 * [Become a Programmer, Motherfucker](http://programming-motherfucker.com/)
 
 * [Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html)
@@ -81,12 +82,15 @@
 
 * [Khan linear algebra](https://pl.khanacademy.org/math/linear-algebra)
 
-### Misc
-
-* [I Contribute to the Windows Kernel. We Are Slower Than Other Operating Systems. Here Is Why.](http://blog.zorinaq.com/i-contribute-to-the-windows-kernel-we-are-slower-than-other-oper/)
 
 ### Tools
 
 * [sdkman](https://sdkman.io/)
 
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html)
+
+### Articles
+
+* [Intelligent DNS based load balancing at Dropbox](https://blogs.dropbox.com/tech/2020/01/intelligent-dns-based-load-balancing-at-dropbox/)
+
+* [I Contribute to the Windows Kernel. We Are Slower Than Other Operating Systems. Here Is Why.](http://blog.zorinaq.com/i-contribute-to-the-windows-kernel-we-are-slower-than-other-oper/)
