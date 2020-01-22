@@ -59,6 +59,8 @@
 
 * [Hive on Spark](https://cwiki.apache.org/confluence/display/Hive/Hive+on+Spark%3A+Getting+Started)
 
+* [Spark on Mesos](http://spark.apache.org/docs/latest/running-on-mesos.html)
+
 ### Python
 
 * [Scikit](https://scikit-image.org/docs/dev/auto_examples/index.html)
@@ -80,6 +82,8 @@
 * [Computer science from the bottom up](http://www.bottomupcs.com/)
 
 * [General science books](http://physicsdatabase.com/general-science-books/)
+
+
 ### Tools
 
 * [sdkman](https://sdkman.io/)
@@ -100,6 +104,8 @@
 
 * [AI Faces](https://generated.photos/)
 
+* [Mesos Storm](https://github.com/mesos/storm)
+
 ### Articles
 
 * [Intelligent DNS based load balancing at Dropbox](https://blogs.dropbox.com/tech/2020/01/intelligent-dns-based-load-balancing-at-dropbox/)
@@ -109,3 +115,4 @@
 * [G1 GC Tunning](https://www.infoq.com/articles/tuning-tips-G1-GC/)
 
 * [Demystifying Kubernetes as a Service – How Alibaba Cloud Manages](https://www.cncf.io/blog/2019/12/12/demystifying-kubernetes-as-a-service-how-does-alibaba-cloud-manage-10000s-of-kubernetes-clusters/)
+
