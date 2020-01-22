@@ -98,6 +98,8 @@
 
 * [PeeringDB](https://www.peeringdb.com/)
 
+* [AI Faces](https://generated.photos/)
+
 ### Articles
 
 * [Intelligent DNS based load balancing at Dropbox](https://blogs.dropbox.com/tech/2020/01/intelligent-dns-based-load-balancing-at-dropbox/)
