@@ -21,6 +21,8 @@
 
 * [Bloom filter](https://en.wikipedia.org/wiki/Bloom_filter)
 
+* [Problem bizantyjskich generałów](https://pl.wikipedia.org/wiki/Problem_bizantyjskich_genera%C5%82%C3%B3w)
+
 * [CGroups](https://www.kernel.org/doc/Documentation/cgroup-v1/cgroups.txt)
 
 * [59 Hilarious but True Programming Quotes for Software Developers](http://theprofessionalspoint.blogspot.com/2013/09/59-hilarious-but-true-programming.html)
@@ -71,7 +73,13 @@
 
 * [Khan linear algebra](https://pl.khanacademy.org/math/linear-algebra)
 
+* [Books](https://doc.lagout.org/)
 
+* [Wowebook](http://www.wowebook.co/)
+
+* [Computer science from the bottom up](http://www.bottomupcs.com/)
+
+* [General science books](http://physicsdatabase.com/general-science-books/)
 ### Tools
 
 * [sdkman](https://sdkman.io/)
