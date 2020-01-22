@@ -1,6 +1,5 @@
 # Links 
 
-
 * [Become a Programmer, Motherfucker](http://programming-motherfucker.com/)
 
 * [Polyglot Persistence](https://martinfowler.com/bliki/PolyglotPersistence.html)
@@ -25,11 +24,7 @@
 
 * [59 Hilarious but True Programming Quotes for Software Developers](http://theprofessionalspoint.blogspot.com/2013/09/59-hilarious-but-true-programming.html)
 
-* [Ngrok](https://ngrok.com/)
 
-* [Lambda Behave](http://richardwarburton.github.io/lambda-behave/)
-
-* [Demystifying Kubernetes as a Service – How Alibaba Cloud Manages](https://www.cncf.io/blog/2019/12/12/demystifying-kubernetes-as-a-service-how-does-alibaba-cloud-manage-10000s-of-kubernetes-clusters/)
 ### Makefile
 
 * [Makefile by example](https://makefiletutorial.com/)
@@ -48,13 +43,6 @@
 
 * [Setting up ZooKeeper and Exhibitor in a Docker environment](http://mintbeans.com/setup-zookeeper-and-exhibitor-on-docker/)
 
-### JVM 
-
-* [Vertx](https://vertx.io/)
-
-* [JVM memory calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
-
-* [G1 GC Tunning](https://www.infoq.com/articles/tuning-tips-G1-GC/)
 
 ### DevOPS
 
@@ -87,10 +75,24 @@
 
 * [sdkman](https://sdkman.io/)
 
+* [kepler.gl](https://kepler.gl/)
+
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html)
+
+* [Vertx](https://vertx.io/)
+
+* [JVM memory calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
+
+* [Ngrok](https://ngrok.com/)
+
+* [Lambda Behave](http://richardwarburton.github.io/lambda-behave/)
 
 ### Articles
 
 * [Intelligent DNS based load balancing at Dropbox](https://blogs.dropbox.com/tech/2020/01/intelligent-dns-based-load-balancing-at-dropbox/)
 
 * [I Contribute to the Windows Kernel. We Are Slower Than Other Operating Systems. Here Is Why.](http://blog.zorinaq.com/i-contribute-to-the-windows-kernel-we-are-slower-than-other-oper/)
+
+* [G1 GC Tunning](https://www.infoq.com/articles/tuning-tips-G1-GC/)
+
+* [Demystifying Kubernetes as a Service – How Alibaba Cloud Manages](https://www.cncf.io/blog/2019/12/12/demystifying-kubernetes-as-a-service-how-does-alibaba-cloud-manage-10000s-of-kubernetes-clusters/)
