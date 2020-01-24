@@ -119,3 +119,5 @@
 * [Exactly one support in apache kafka](https://medium.com/@jaykreps/exactly-once-support-in-apache-kafka-55e1fdd0a35f)
 
 * [Problem bizantyjskich generalow](https://pl.wikipedia.org/wiki/Problem_bizantyjskich_genera%C5%82%C3%B3w)
+
+* [JVM Internals](https://blog.jamesdbloom.com/JVMInternals.html)
