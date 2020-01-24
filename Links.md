@@ -121,3 +121,5 @@
 * [Problem bizantyjskich generalow](https://pl.wikipedia.org/wiki/Problem_bizantyjskich_genera%C5%82%C3%B3w)
 
 * [JVM Internals](https://blog.jamesdbloom.com/JVMInternals.html)
+
+* [Cache Patterns](https://dzone.com/articles/where-is-my-cache-architectural-patterns-for-cachi)
