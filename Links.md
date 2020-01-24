@@ -116,3 +116,4 @@
 
 * [Demystifying Kubernetes as a Service – How Alibaba Cloud Manages](https://www.cncf.io/blog/2019/12/12/demystifying-kubernetes-as-a-service-how-does-alibaba-cloud-manage-10000s-of-kubernetes-clusters/)
 
+* [Exactly one support in apache kafka](https://medium.com/@jaykreps/exactly-once-support-in-apache-kafka-55e1fdd0a35f)
