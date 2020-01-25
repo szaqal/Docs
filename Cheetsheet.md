@@ -68,6 +68,14 @@ gpg2 --armor --export xxx@xxxx
 gpg2 --armor --export-secret-keys xxx@xxxx
 ```
 
+### DUPLICITY
+
+Create
+```
+duplicity --progress --encrypt-key=xxxx --encrypt-secret-keyring=/home/xxxx/.gnupg/trustdb.gpg   /home/xxxx/test/ file:///NAS/Backups/
+```
+
+
 ## DEV
 
 ### Python
