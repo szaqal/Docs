@@ -67,6 +67,12 @@ gpg2 --output  testfile.gpg --encrypt --recipient xxx@xxxx testfile.txt
 gpg2 --armor --export xxx@xxxx
 gpg2 --armor --export-secret-keys xxx@xxxx
 ```
+Check encryption key id 
+```
+gpg2 --list-packets duplicity-full.20200125T095437Z.vol1.difftar.gpg 
+gpg: encrypted with RSA key, ID FB0F52F6BA77FB4D
+```
+
 
 ### DUPLICITY
 
