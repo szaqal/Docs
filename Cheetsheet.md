@@ -88,8 +88,6 @@ sdk list java
 apt install awscli
 ```
 
-Initial configuration 
-
 ```
 AWS Access Key ID [None]: xxxxxxxxxxxxxxxxxxx 
 AWS Secret Access Key [None]: xxxxxxxxxxxxxxxxxxx
@@ -100,4 +98,13 @@ Default output format [None]: json
 ```
 aws s3 ls s3://some-logs/api/
 aws s3 mv  s3://dir/ /local/path/s3/ --recursive
+```
+
+### GCloud
+
+```
+gcloud components list
+gcloud components install pubsub-emulator
+gcloud components update
+gcloud beta emulators pubsub start
 ```

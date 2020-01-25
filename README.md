@@ -32,8 +32,6 @@
 
 * [Vault](Vault.md)
 
-* [Gcloud](gcloud.md)
-
 * [Mysql](Mysql.md)
 
 * [Protobuffers](Protobuffers.md)
