@@ -81,3 +81,23 @@ sdk install java 8-oracle /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Con
 sdk default java 8-oracle
 sdk list java
 ```
+
+### AWS CLI
+
+```
+apt install awscli
+```
+
+Initial configuration 
+
+```
+AWS Access Key ID [None]: xxxxxxxxxxxxxxxxxxx 
+AWS Secret Access Key [None]: xxxxxxxxxxxxxxxxxxx
+Default region name [None]: us-west-2
+Default output format [None]: json
+```
+
+```
+aws s3 ls s3://some-logs/api/
+aws s3 mv  s3://dir/ /local/path/s3/ --recursive
+```

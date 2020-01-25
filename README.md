@@ -20,8 +20,6 @@
 
 * [Hive](Hive.md)
 
-* [AwsCli](AwsCli.md)
-
 * [Go](Go.md)
 
 * [Ignite](Ignite.md)
