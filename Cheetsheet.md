@@ -60,6 +60,7 @@ root@ubuntu-mesos-master:/etc/zookeeper/conf#  apt-cache madison docker-ce
 ### GPG
 
 ```
+gpg2 --batch --gen-key  ./keyData
 gpg2 --list-keys
 gpg2 --output  testfile_decrypt.txt --decrypt testfile.gpg
 gpg2 --output  testfile.gpg --encrypt --recipient xxx@xxxx testfile.txt
