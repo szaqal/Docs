@@ -73,3 +73,11 @@ Optimize GIF size from terminalizer
 ```
 ╰─$ convert demo.gif   -fuzz 20% -layers Optimize result.gif
 ```
+
+### SDKMAN
+
+```
+sdk install java 8-oracle /Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home
+sdk default java 8-oracle
+sdk list java
+```
