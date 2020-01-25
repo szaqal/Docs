@@ -1,12 +1,15 @@
 # Cheetsheet
 
-### RHEL
+## OPS
 
-#### List RPM package files  
+### Mysql
 
 ```
-rpm -qpl xxx.x86_64.rpm
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 ```
+
+## DEV
 
 ### Python
 
@@ -23,8 +26,9 @@ for x in 52.32.30.222 34.211.88.188 52.32.135.222 22.164.194.22
 do 
         ssh -i key.pem ubuntu@$x 'sudo apt-get -y install python'
 done
-
 ```
+
+
 
 ### Docker
 
@@ -38,12 +42,6 @@ root@ubuntu-mesos-master:/etc/zookeeper/conf#  apt-cache madison docker-ce
  docker-ce | 18.03.1~ce-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
 ```
 
-### Mysql
-
-```
-CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
-```
 
 ### Rsync
 
@@ -62,7 +60,6 @@ dd if=/dev/zero of=test.img bs=1024 count=0 seek=$[1024*10] (10MB)
 ### Monitoring tools
 
 dnstop and iftop
-
 ```
 bash-4.4# apk add iftop dnstop
 ```
