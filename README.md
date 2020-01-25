@@ -22,8 +22,6 @@
 
 * [Go](Go.md)
 
-* [Ignite](Ignite.md)
-
 * [Wildfly](Wildfly.md)
 
 * [R](R.md)
@@ -33,7 +31,5 @@
 * [Vault](Vault.md)
 
 * [Mysql](Mysql.md)
-
-* [Protobuffers](Protobuffers.md)
 
 * [Links](Links.md)

@@ -108,3 +108,17 @@ gcloud components install pubsub-emulator
 gcloud components update
 gcloud beta emulators pubsub start
 ```
+
+### Apache Ignite
+
+```
+./control.sh --activate
+./sqlline.sh -u jdbc:ignite:thin://xxx.xxx.xxx.xxx
+```
+
+### Protobuffers
+
+```
+protoc -I service/ service/service.proto --go_out=plugins=grpc:service
+```
+
