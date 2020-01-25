@@ -57,6 +57,16 @@ root@ubuntu-mesos-master:/etc/zookeeper/conf#  apt-cache madison docker-ce
  docker-ce | 18.03.1~ce-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
 ```
 
+### GPG
+
+```
+gpg2 --list-keys
+gpg2 --output  testfile_decrypt.txt --decrypt testfile.gpg
+gpg2 --output  testfile.gpg --encrypt --recipient xxx@xxxx testfile.txt
+gpg2 --armor --export xxx@xxxx
+gpg2 --armor --export-secret-keys xxx@xxxx
+```
+
 ## DEV
 
 ### Python
