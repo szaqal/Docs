@@ -2,23 +2,6 @@
 
 ## OPS
 
-### Mysql
-
-```
-CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
-```
-
-## DEV
-
-### Python
-
-#### Install packages for python 3 if python 2 is default
-
-```
-python3 -m pip install yoyo-migrations
-``` 
-
 ### BASH
 
 ```
@@ -28,21 +11,6 @@ do
 done
 ```
 
-
-
-### Docker
-
-### List for older distributions  (ubuntu)
-
-```
-root@ubuntu-mesos-master:/etc/zookeeper/conf#  apt-cache madison docker-ce
- docker-ce | 5:18.09.0~3-0~ubuntu-xenial | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
- docker-ce | 18.06.1~ce~3-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
- docker-ce | 18.06.0~ce~3-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
- docker-ce | 18.03.1~ce-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
-```
-
-
 ### Rsync
 
 Copy file over rsynch that allows resume
@@ -50,6 +18,21 @@ Copy file over rsynch that allows resume
 ```
  rsync -P -rsh=ssh root@192.168.2.102:/mnt/file.gz ./file.sql.gz
 ```
+
+### Mysql
+
+```
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
+```
+
+### TCPFLOW
+
+```
+tcpflow -c 
+tcpflow -i eth1  port 8094 -C
+```
+
 ### Generate file of arbitraty size
 
 ```
@@ -64,13 +47,25 @@ dnstop and iftop
 bash-4.4# apk add iftop dnstop
 ```
 
-### TCPFLOW
+### List for older distributions  (ubuntu)
 
 ```
-tcpflow -c 
-tcpflow -i eth1  port 8094 -C
+root@ubuntu-mesos-master:/etc/zookeeper/conf#  apt-cache madison docker-ce
+ docker-ce | 5:18.09.0~3-0~ubuntu-xenial | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+ docker-ce | 18.06.1~ce~3-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+ docker-ce | 18.06.0~ce~3-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
+ docker-ce | 18.03.1~ce-0~ubuntu | https://download.docker.com/linux/ubuntu xenial/stable amd64 Packages
 ```
 
+## DEV
+
+### Python
+
+#### Install packages for python 3 if python 2 is default
+
+```
+python3 -m pip install yoyo-migrations
+``` 
 ### Terminalizer 
 
 Optimize GIF size from terminalizer
