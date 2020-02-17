@@ -6,10 +6,22 @@
 rm(df)
 ```
 
-### Clean workspace
+### Workspace
+
+Clean 
 
 ```
 rm(list=ls())
+```
+
+List
+```
+print(ls())
+```
+
+List with patterns
+```
+print(ls(pattern = "var"))
 ```
 
 ### Obtain help
