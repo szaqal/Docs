@@ -152,9 +152,9 @@ protoc -I service/ service/service.proto --go_out=plugins=grpc:service
 
 ```
 stats slabs
-
-```
-
-```
 stats cachedump 3 100
+
+```
+```
+watch memcdump --servers=localhost
 ```
