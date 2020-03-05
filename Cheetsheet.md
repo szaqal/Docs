@@ -148,3 +148,13 @@ gcloud beta emulators pubsub start
 protoc -I service/ service/service.proto --go_out=plugins=grpc:service
 ```
 
+### Memcached
+
+```
+stats slabs
+stats cachedump 3 100
+
+```
+```
+watch memcdump --servers=localhost
+```
