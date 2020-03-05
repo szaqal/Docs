@@ -27,6 +27,9 @@
 
 * [59 Hilarious but True Programming Quotes for Software Developers](http://theprofessionalspoint.blogspot.com/2013/09/59-hilarious-but-true-programming.html)
 
+### Go
+
+* [Learn Concurrency](https://github.com/golang/go/wiki/LearnConcurrency)
 
 ### Makefile
 
@@ -86,27 +89,39 @@
 
 ### Tools
 
-* [sdkman](https://sdkman.io/)
-
-* [kepler.gl](https://kepler.gl/)
-
-* [Linux Performance](http://www.brendangregg.com/linuxperf.html)
-
-* [Vertx](https://vertx.io/)
-
-* [JVM memory calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
+#### Dev
 
 * [Ngrok](https://ngrok.com/)
 
+* [sdkman](https://sdkman.io/)
+
 * [Lambda Behave](http://richardwarburton.github.io/lambda-behave/)
 
-* [PeeringDB](https://www.peeringdb.com/)
+
+* [Vertx](https://vertx.io/)
+
+
+* [Apache Druid](https://druid.apache.org/docs/latest/tutorials/index.html)
+
+#### AI/ML
 
 * [AI Faces](https://generated.photos/)
 
+* [kepler.gl](https://kepler.gl/)
+
+#### Ops/Devops
+
+* [Flux](https://github.com/fluxcd/flux)
+
 * [Mesos Storm](https://github.com/mesos/storm)
 
-### Articles
+* [PeeringDB](https://www.peeringdb.com/)
+
+* [Linux Performance](http://www.brendangregg.com/linuxperf.html)
+
+* [JVM memory calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
+
+### Misc Articles
 
 * [Intelligent DNS based load balancing at Dropbox](https://blogs.dropbox.com/tech/2020/01/intelligent-dns-based-load-balancing-at-dropbox/)
 
