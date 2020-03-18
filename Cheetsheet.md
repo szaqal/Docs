@@ -81,6 +81,10 @@ Create
 duplicity --progress --encrypt-key=xxxx --encrypt-secret-keyring=/home/xxxx/.gnupg/trustdb.gpg   /home/xxxx/test/ file:///NAS/Backups/
 duplicity list-current-files file:///NAS/Backups
 ```
+Restore
+```
+duplicity restore file:///opt/raid/Backups/ .
+```
 
 
 ## DEV
