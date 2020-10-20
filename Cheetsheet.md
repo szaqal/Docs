@@ -11,6 +11,15 @@ do
 done
 ```
 
+#### Check ignorecase
+
+```
+Z="${X,,}"
+if [ "$Z" = "y" ]; then
+    echo "YES"
+```
+
+
 ### Rsync
 
 Copy file over rsynch that allows resume
