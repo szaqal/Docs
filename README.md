@@ -1,5 +1,7 @@
 # README
 
+* [Bash](Bash.md)
+
 * [Cheetsheet](Cheetsheet.md)
 
 * [Mesos](Mesos.md)
