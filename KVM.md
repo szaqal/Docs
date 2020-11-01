@@ -7,6 +7,18 @@ virsh # setmaxmem ion-os-mas-01 18G --config
 virsh # setmem ion-os-mas-01 18G --config
 ```
 
+### List pools
+
+```
+pool-list
+```
+
+### List volumes in pool
+
+```
+vol-list POOL_NAME
+```
+
 ### List pools / volumes
 
 ```
