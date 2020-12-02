@@ -26,6 +26,14 @@ tcpflow -c
 tcpflow -i eth1  port 8094 -C
 ```
 
+### APT through proxy
+
+In /etc/apt/apt.conf
+```
+Acquire::http::Proxy "http://proxy:3128";
+```
+
+
 ### Generate file of arbitraty size
 
 ```
