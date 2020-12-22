@@ -4,13 +4,6 @@
 
 
 
-### Rsync
-
-Copy file over rsynch that allows resume
-
-```
- rsync -P -rsh=ssh root@192.168.2.102:/mnt/file.gz ./file.sql.gz
-```
 
 ### Mysql
 
