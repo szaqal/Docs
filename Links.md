@@ -27,9 +27,6 @@
 
 * [59 Hilarious but True Programming Quotes for Software Developers](http://theprofessionalspoint.blogspot.com/2013/09/59-hilarious-but-true-programming.html)
 
-### Go
-
-* [Learn Concurrency](https://github.com/golang/go/wiki/LearnConcurrency)
 
 ### Makefile
 
@@ -93,13 +90,7 @@
 
 * [Ngrok](https://ngrok.com/)
 
-* [sdkman](https://sdkman.io/)
-
-* [Lambda Behave](http://richardwarburton.github.io/lambda-behave/)
-
-
 * [Vertx](https://vertx.io/)
-
 
 * [Apache Druid](https://druid.apache.org/docs/latest/tutorials/index.html)
 
@@ -111,15 +102,10 @@
 
 #### Ops/Devops
 
-* [Flux](https://github.com/fluxcd/flux)
-
-* [Mesos Storm](https://github.com/mesos/storm)
 
 * [PeeringDB](https://www.peeringdb.com/)
 
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html)
-
-* [JVM memory calculator](https://github.com/cloudfoundry/java-buildpack-memory-calculator)
 
 ### Misc Articles
 
