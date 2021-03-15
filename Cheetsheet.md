@@ -1,21 +1,23 @@
 # Cheetsheet
 
-## OPS
+Ops Monitoring
+---
+
+dnstop, iftop,iperf
 
 
-
-
-### Mysql
+Mysql
+---
 
 ```
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';
 ```
 
-### TCPFLOW
+Network
+---
 
 ```
-tcpflow -c 
 tcpflow -i eth1  port 8094 -C
 ```
 
@@ -34,12 +36,6 @@ dd if=/dev/zero of=1g.img bs=1 count=0 seek=1G (1G)
 dd if=/dev/zero of=test.img bs=1024 count=0 seek=$[1024*10] (10MB)
 ```
 
-### Monitoring tools
-
-dnstop and iftop
-```
-bash-4.4# apk add iftop dnstop
-```
 
 ### List for older distributions  (ubuntu)
 
@@ -85,11 +81,6 @@ duplicity restore file:///opt/raid/Backups/ .
 
 ### Python
 
-#### Install packages for python 3 if python 2 is default
-
-```
-python3 -m pip install yoyo-migrations
-``` 
 ### Terminalizer 
 
 Optimize GIF size from terminalizer
