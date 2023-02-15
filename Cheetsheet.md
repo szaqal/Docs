@@ -300,3 +300,22 @@ Once ready navigate to ```https://192.168.2.200:8443```
 ```
 https://docs.openshift.com/container-platform/3.4/install_config/install/advanced_install.html#uninstalling-advanced
 ```
+
+
+
+### GRPC
+
+#### RPC types 
+
+* Unary RPCs request / response model ```rpc SayHello(HelloRequest) returns (HelloResponse)```
+
+* Server Streaming RPC request  / multiple messages back ```pc LotsOfReplies(HelloRequest) returns (stream HelloResponse)```
+
+* Client streaming RPCs ```rpc LotsOfGreetings(stream HelloRequest) returns (HelloResponse)```
+
+* Bidirectional Steaming ```rpc BidiHello(stream HelloRequest) returns (stream HelloResponse)```
+
+
+##### Error Codes
+
+* [Status codes](https://github.com/googleapis/googleapis/blob/master/google/rpc/code.proto)
