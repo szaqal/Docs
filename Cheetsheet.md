@@ -484,7 +484,7 @@ res += "<br/>"+toHtml(it) + "-> Count: "+cnt;
 [standalone@localhost:9990 /] /subsystem=ejb3/thread-pool=default:write-attribute(name=max-threads,value=512)
 ```
 
-####cList JNDI 
+#### List JNDI 
 
 ```
 /subsystem=naming:jndi-view()
