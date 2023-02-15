@@ -608,3 +608,72 @@ format(structure(sum(subset(DF_NAME$PROP, regexpr(".*java.*",DF_NAME$PROP)>0)), 
 ```
 library()
 ```
+
+
+
+### Git
+
+#### Clone Tag
+
+```
+git clone --branch <tag> <repo>
+```
+
+### Delete remote GIT tag
+
+```
+git push --delete origin v-xxxx-release
+```
+
+#### Change commit message (last)
+
+```
+git commit --amend
+```
+
+#### Compare Branches
+
+```
+git diff feature-x..develop
+```
+
+#### File changes history
+
+```
+git log <file>
+```
+
+#### Logs
+
+```
+git log --stat
+git log -p
+```
+
+#### Go back + fix + add to master
+
+Same can be dome with branchs + merge (new_commit_id can be taken from reflog)
+
+```
+git checkout commit_id
+git commit -am "xxx"
+git checkout master
+git cherry-pick new_commit_id
+```
+
+#### Revert most recent commit
+
+```
+git revert HEAD
+```
+
+#### Cleanup (interactive)
+
+```
+git clean -i
+```
+
+#### Remove branches matching something
+```
+git branch | grep  "versionup-" | xargs git branch -d
+```
